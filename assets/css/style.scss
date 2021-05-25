@@ -3,17 +3,25 @@
 
 @import "{{ site.theme }}";
 
-header img {
-  border: 0;
-  box-shadow: none;
+.inner {
+  max-width: 725px;
 }
 
-header h1 a {
-  color: white !important;
-  text-decoration: none;
+header {
+  img {
+    border: 0;
+    box-shadow: none;
+  }
+  
+  h1 {
+    a {
+      color: white !important;
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
-header h1 a:hover {
-  color: white !important;
-  text-decoration: underline;
-}

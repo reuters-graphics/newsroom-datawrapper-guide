@@ -1,3 +1,4 @@
-## Datawrapper Dos and Don'ts
+## Reuters Guide to Datawrapper for charts
 
-TK
+#### [Datawrapper Dos and Don'ts](./dos-and-donts.md)
+Make better charts! What for these common pitfalls in your charting.

@@ -34,3 +34,6 @@ TK
 
 TK
 
+### Next steps
+
+Read the [Datawrapper Dos and Don'ts](https://reuters-graphics.github.io/newsroom-datawrapper-guide/dos-and-donts.html) to learn how to avoid common charting mistakes and discover best practices to emmulate in your dataviz.

@@ -13,3 +13,7 @@ Now make better charts! Watch for these common pitfalls and copy these best prac
 #### [Datawrapper academy](https://academy.datawrapper.de/)
 
 Go pro! Learn more about how to make complex charts and maps in Datawrapper.
+
+#### [FAQ](./FAQ.md)
+
+Get answers to your most frequently asked questions about Datawrapper.

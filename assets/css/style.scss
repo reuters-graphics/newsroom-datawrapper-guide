@@ -7,3 +7,13 @@ header img {
   border: 0;
   box-shadow: none;
 }
+
+header h1 a {
+  color: white !important;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  color: white !important;
+  text-decoration: underline;
+}

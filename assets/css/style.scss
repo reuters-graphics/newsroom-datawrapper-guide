@@ -7,10 +7,15 @@
   max-width: 725px;
 }
 
+#header_wrap .inner {
+  padding: 10px;
+}
+
 header {
   img {
     border: 0;
     box-shadow: none;
+    margin-bottom: -15px;
   }
   
   h1 {

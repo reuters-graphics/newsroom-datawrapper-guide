@@ -4,7 +4,7 @@ This guide will get you started creating charts in Datawrapper.
 
 ### Getting setup
 
-- Email all.graphics@thomsonreuters.com and ask the Graphics team for a new Datawrapper account. 
+- Email [all.graphics@thomsonreuters.com](mailto:all.graphics@thomsonreuters.com) and ask the Graphics team for a new Datawrapper account. 
   - Follow up with Anand Katakam in APAC, Jon McClure in EMEA or Chris Canipe in AMERS if you don’t receive a quick response.
 - You will receive an email confirming your new account from Datawrapper.
 - Go to [https://app.datawrapper.de/signin](https://app.datawrapper.de/signin) and login using your newly created Datawrapper account. 

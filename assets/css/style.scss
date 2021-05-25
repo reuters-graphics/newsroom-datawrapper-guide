@@ -7,6 +7,10 @@
   max-width: 725px;
 }
 
+main_content_wrap {
+  min-height: calc(100vh - 257px);
+}
+
 #header_wrap .inner {
   padding: 10px;
 }

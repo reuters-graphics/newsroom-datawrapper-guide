@@ -24,9 +24,9 @@ Almost all data should be "square" with a single header row describing your data
 
 If your data is not square, you may need to reformat it by hand or use a [pivot table](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576) in Excel. You can also try tools like Stanford's [DataWrangler](http://vis.stanford.edu/wrangler/) for more complex data transformations.
 
-Once your data is ready, you can signin to Datawrapper and start a new chart.
+Once your data is ready, you can sign in to Datawrapper and start a new chart.
 
-In most cases, you'll simple copy and paste your data from your spreadsheet into the text box on the "Upload data" tab of your chart like this:
+In most cases, you'll simple copy and paste your data from your spreadsheet into the text box on the "Upload Data" tab of your chart like this:
 
 ![](https://user-images.githubusercontent.com/2772078/119650999-63f08180-be1c-11eb-9464-b3d944db4e95.png)
 
@@ -38,7 +38,7 @@ With your data prepped and uploaded, click "Proceed" to take you to the "Check a
 
 In this step, you can make sure Datawrapper is correctly parsing and interpretting your data. Common problems are things like years being treated as numbers instead of dates or numbers being parsed incorrectly as text. You can also divide or round columns of numbers in this step to make your chart more readable.
 
-To change the format, click a column ("A", "B", "C", etc. below) and choose the right options for your data in the panel left of the data table.
+To change the format, click a column header ("A", "B", "C", etc. below) and choose the right options for your data in the panel left of the table.
 
 ![](https://user-images.githubusercontent.com/2772078/119651597-17f20c80-be1d-11eb-927d-81bf579c7577.png)
 

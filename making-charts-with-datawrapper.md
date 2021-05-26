@@ -46,6 +46,16 @@ Once your data is correctly formatted, uploaded and parsed, you're ready to star
 
 #### Choosing the right chart type
 
+With your data squared away, Datawrapper will make an educated guess at what chart type is best for your data, but you can choose to override that choice, too.
+
+![](https://user-images.githubusercontent.com/2772078/119654242-23930280-be20-11eb-9e85-be3adefb8cca.png)
+
+Choosing the right chart type is an important step to make sure you're communicating your data clearly and correctly.
+
+Our friends in the graphics department at the FT have provided a very useful guide to what kinds of chart best match to different kinds of data. We highly recommend it and you can [download it here](https://github.com/ft-interactive/chart-doctor/raw/master/visual-vocabulary/FT4schools_RGS.pdf).
+
+#### Refining your chart
+
 TK
 
 #### Filling out the metadata for you chart

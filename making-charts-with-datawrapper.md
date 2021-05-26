@@ -56,11 +56,24 @@ Our friends in the graphics department at the FT have provided a very useful gui
 
 #### Refining your chart
 
-TK
+On the "Refine" and "Annotate" tabs, you can further design your chart to meet your needs. This includes adding text annotations, sorting the data points, picking
+a number format to display your values on your axes and more. It also enables you to pick colours for your chart elements from our official Reuters colour palette, but please do not use other colours than what are available in the default colour picker. That's our style!
+
+![](https://user-images.githubusercontent.com/2772078/119655136-23dfcd80-be21-11eb-86f1-1ae6ea2cab78.png)
+
+Refining your chart is an easy place to make a mistake that can distort your data or forget to label important elements necessary to communicate your data clearly. Check out the [Dos and Don'ts](../dos-and-donts.md) for tips on how to avoid common missteps here.
 
 #### Filling out the metadata for you chart
 
-TK
+In order to publish your chart, you **must** fill out a few fields on the "Annotate" tab.
+
+Your chart must have a title, description and a data source that describes where your data came from as well as a link to the raw data whenever possible.
+
+You must also include a **Root slug** (a Wild slug is optional). That slug should not include a `/` so `HEALTH-CORONAVIRUS` not `HEALTH-CORONAVIRUS/`.
+
+Without this basic information your chart **will not successfully publish.**
+
+![](https://user-images.githubusercontent.com/2772078/119656505-ad43cf80-be22-11eb-8615-75cfeab780a3.png)
 
 #### Publishing your chart
 

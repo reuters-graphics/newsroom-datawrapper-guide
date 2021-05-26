@@ -77,11 +77,23 @@ Without this basic information your chart **will not successfully publish.**
 
 #### Publishing your chart
 
-TK
+With your chart ready, you can go to the "Publish & Embed" tab to start the process of publishing your chart. Click the "Publish chart" button when ready.
+
+![](https://user-images.githubusercontent.com/2772078/119657200-84700a00-be23-11eb-948d-13880740b48f.png)
+
+**CRITICALLY**, though, we **do not** use any of the embed options directly in Datawrapper to embed charts in the CMS.
+
+Behind the scenes, graphics' bots will intercept and package your chart from Datawrapper, upload it to Reuters-owned servers and give you back the right links to use your charts in stories in the [**Datawrapper charts channel in Teams**](https://teams.microsoft.com/l/channel/19%3a489aacae4e19400d8cf0da402c021076%40thread.skype/%25F0%259F%2593%2588Datawrapper%2520charts?groupId=c0949280-94a2-469a-a719-12397824db0a&tenantId=62ccb864-6a1a-4b5d-8e1c-397dec1a8258)
+
+In that channel, a card for your chart will be generated with several links including to a static image of your chart, an interactive version and a link the chart hosted in the [Graphics Portal](https://sphinx.thomsonreuters.com/graphics/#/group/rngs).
+
+![](https://user-images.githubusercontent.com/2772078/119657862-59d28100-be24-11eb-8bde-6b91058ebcc0.png)
 
 #### Using your chart
 
-TK
+For now, the only charts our CMS will accept are static images, **not** the interactive version. So choose the "Image" link from the card in Teams or use the Graphics Portal to get the same.
+
+See [this short instructional video](https://thehub.thomsonreuters.com/videos/60336) in the Hub for a demonstration of how to then embed your chart in Lynx or ask the desk for help getting your chart in your story.
 
 ### Next steps
 

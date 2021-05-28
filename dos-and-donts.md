@@ -16,9 +16,7 @@ This will add the dollar sign to the y-axis label:
 
 Financial and economic data is often expressed in millions or billions of dollars. If you don't convert those numbers, the reader has to do math. For example, converting 1,000 billion to 1 trillion.
 
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/hierarchy-bad.png?v=3)
-
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/hierarchy-good.png?v=3)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/hierarchy.png?v=3)
 
 There are two ways to handle this:
 

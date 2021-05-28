@@ -6,10 +6,10 @@ This guide will help you make clear charts that tell compelling stories.
 #### ✓DO: Include units in your axis values
 
 This is easiest to do in the "Check & Describe" tab:
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units.png)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units.png?v=2)
 
 This will add the dollar sign to the y-axis label:
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units-chart.png)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units-chart.png?v=2)
 
 #### ✘DON'T: Eat up white space with a ton of zeros
 #### ✓DO: Express large numbers as decimals
@@ -35,7 +35,7 @@ Bars, however, are very easy to compare!
 
 Pie charts are almost always better as bar charts. Make bar charts.
 
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/pie-charts.png)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/pie-charts.png?v=2)
 
 #### Should your bar chart be rotated?
 

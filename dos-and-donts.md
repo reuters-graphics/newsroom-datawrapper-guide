@@ -6,20 +6,27 @@ This guide will help you make clear charts that tell compelling stories.
 #### ✓DO: Include units in your axis values
 
 This is easiest to do in the "Check & Describe" tab:
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units.png?v=2)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units.png?v=3)
 
 This will add the dollar sign to the y-axis label:
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units-chart.png?v=2)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units-chart.png?v=3)
 
-#### ✘DON'T: Eat up white space with a ton of zeros
-#### ✓DO: Express large numbers as decimals
+#### ✘DON'T: Mix and match number hierarchy
+#### ✓DO: Use decimals and units to label values consistently
 
-All of those zeros take up space.
+Financial and economic data is often expressed in millions or billions of dollars. If you don't convert those numbers, the reader has to do math. For example, converting 1,000 billion to 1 trillion.
 
-In the "Check & Describe" tab:
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/hierarchy-bad.png?v=3)
+
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/hierarchy-good.png?v=3)
+
+There are two ways to handle this:
+
+1) If your data is in Excel, you can do that conversion yourself before pasting your data into Datawrapper.
+
+2) You can also do this in Datawrapper under the "Check & Describe" tab:
 * Divide or multiply to get clean decimal style numbers.
 * Append the "K" (thousands) "M" (millions), "B" (billions), etc.
-
 
 #### ✘DON'T: Make spaghetti
 #### ✓DO: Decide what's important and omit or combine non-essential variables.
@@ -35,7 +42,7 @@ Bars, however, are very easy to compare!
 
 Pie charts are almost always better as bar charts. Make bar charts.
 
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/pie-charts.png?v=2)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/pie-charts.png?v=3)
 
 #### Should your bar chart be rotated?
 

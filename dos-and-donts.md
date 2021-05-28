@@ -9,7 +9,7 @@ This is easiest to do in the "Check & Describe" tab:
 ![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units.png)
 
 This will add the dollar sign to the y-axis label:
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units-chart.png?v=1)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units-chart.png)
 
 #### ✘DON'T: Eat up white space with a ton of zeros
 #### ✓DO: Express large numbers as decimals
@@ -34,6 +34,8 @@ Human brains are bad at comparing slice sizes to one another. The difference bet
 Bars, however, are very easy to compare!
 
 Pie charts are almost always better as bar charts. Make bar charts.
+
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/pie-charts.png)
 
 #### Should your bar chart be rotated?
 

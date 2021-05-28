@@ -2,13 +2,15 @@
 
 This guide will help you make clear charts that tell compelling stories.
 
-#### Label those units! Preferably, on the axes.
+#### DO: Label those units!
+
+The reader needs to know what they're looking at.
 
 This is easiest to do in the "Check & Describe" tab:
 ![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units.png)
 
 This will add the dollar sign to the y-axis label:
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units-chart.png)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units-chart.png?v=1)
 
 #### Express large numbers as decimals
 

@@ -6,6 +6,8 @@ This guide will help you make clear charts that tell compelling stories.
 
 This is easiest to do in the "Check & Describe" tab.
 
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units.png)
+
 #### Express large numbers as decimals
 
 All of those zeros take up space. Divide or multiply to get clean decimal style numbers.

@@ -4,7 +4,7 @@ This guide will help you make clear charts that tell compelling stories.
 
 #### Label those units! Preferably, on the axes.
 
-This is easiest to do in the "Check & Describe" tab.
+This is easiest to do in the "Check & Describe" tab. X
 
 ![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units.png)
 

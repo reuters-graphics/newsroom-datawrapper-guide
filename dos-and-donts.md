@@ -2,9 +2,11 @@
 
 This guide will help you make clear charts that tell compelling stories.
 
-#### DO: Label those units!
+#### DON'T: Put units in the dek or notes.
 
-The reader needs to know what they're looking at.
+The unit of measurement is primary information. It should be part of the chart.
+
+#### DO: Label those units!
 
 This is easiest to do in the "Check & Describe" tab:
 ![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units.png)
@@ -12,7 +14,7 @@ This is easiest to do in the "Check & Describe" tab:
 This will add the dollar sign to the y-axis label:
 ![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units-chart.png?v=1)
 
-#### Express large numbers as decimals
+#### DO: Express large numbers as decimals
 
 All of those zeros take up space. Divide or multiply to get clean decimal style numbers.
 

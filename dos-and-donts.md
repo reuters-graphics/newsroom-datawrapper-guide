@@ -64,7 +64,6 @@ Share of daily income needed for 1 litre of: ◼︎ Diesel   ◼︎ Petrol
 
 Don't emphasize too many things.
 
-
 ![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/language.png?v=4)
 
 
@@ -72,5 +71,5 @@ Don't emphasize too many things.
 
 Too many colors, labels, axes labels, etc... can make your chart harder to read. You don't want to overload the reader. When in doubt, fall back on the axiom, "Remove to Improve."
 
-
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/data-ink.gif?v=4)
 

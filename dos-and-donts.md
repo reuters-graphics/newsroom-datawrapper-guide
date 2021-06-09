@@ -55,12 +55,16 @@ Data terminology is often wonky. Part of our job as journalists is to simplify a
 
 Try not to repeat language in labeling. For example:
 
+```
 ◼︎ Diesel as % of per capital income/day
 ◼︎ Petrol as % of per capital income/day
+```
 
 Can be more succinctly written as:
 
+```
 Share of daily income needed for 1 litre of: ◼︎ Diesel   ◼︎ Petrol
+```
 
 Don't emphasize too many things.
 

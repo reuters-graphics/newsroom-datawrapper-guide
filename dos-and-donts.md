@@ -14,7 +14,7 @@ This will add the dollar sign to the y-axis label:
 #### ✘DON'T: Mix and match number hierarchy
 #### ✓DO: Use decimals and units to label values consistently
 
-Financial and economic data is often expressed in millions or billions of dollars. If you don't convert those numbers, the reader has to do math. For example, converting 1,000 billion to 1 trillion.
+Financial and economic data are often expressed in millions or billions of dollars. If you don't convert those numbers, the reader has to do math. For example, converting "1,000 billion" to "1 trillion".
 
 ![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/hierarchy.png?v=3)
 
@@ -26,10 +26,10 @@ There are two ways to handle this:
 * Divide or multiply to get clean decimal style numbers.
 * Append the "K" (thousands) "M" (millions), "B" (billions), etc.
 
-#### ✘DON'T: Make spaghetti
+#### ✘DON'T: Make charts with too many variables
 #### ✓DO: Decide what's important and omit or combine non-essential variables.
 
-Spaghetti charts are hard to parse. If you can eliminate variables from your dataset, or combine several categories into "Other", you're chart will be much easier to read.
+Time series charts with a lot of variables can be difficult to parse. If you can eliminate categories or combine the smaller slices, your chart will be much easier to read.
 
 #### ✘DON'T: Make pie charts.
 #### ✓DO: Make bar charts!
@@ -44,11 +44,16 @@ Pie charts are almost always better as bar charts. Make bar charts.
 
 #### Should your bar chart be rotated?
 
-If you are comparing a lot of categories, Datawrapper might rotate your labels. Rotated labels are hard to read. The easy fix is to simply rotate to horizontal bars.
+If you are comparing a lot of categories, Datawrapper might rotate your labels to make room on the x axis. Rotated labels are hard to read. The easy fix is to simply rotate to horizontal bars.
+
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/horiz-bars.png?v=3)
+
+#### Don't use wonky names or abbreviations
+#### Do feel free to rename variables when appropriate
 
 #### Remove to improve
 
-Too many colors, labels, axes labels, etc... can make your chart harder to read. You don't want to overload the reader. When in doubt, fall back on the mantra, "Remove to Improve."
+Too many colors, labels, axes labels, etc... can make your chart harder to read. You don't want to overload the reader. When in doubt, fall back on the axiom, "Remove to Improve."
 
 
 

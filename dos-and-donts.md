@@ -6,17 +6,17 @@ This guide will help you make clear charts that tell compelling stories.
 #### ✓DO: Include units in your axis values
 
 This is easiest to do in the "Check & Describe" tab:
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units.png)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units.png?v=4)
 
 This will add the dollar sign to the y-axis label:
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units-chart.png)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units-chart.png?v=4)
 
 #### ✘DON'T: Mix and match number hierarchy
 #### ✓DO: Use decimals and units to label values consistently
 
 Financial and economic data are often expressed in millions or billions of dollars. If you don't convert those numbers, the reader has to do math. For example, converting "1,000 billion" to "1 trillion".
 
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/hierarchy.png)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/hierarchy.png?v=4)
 
 There are two ways to handle this:
 
@@ -40,20 +40,20 @@ Bars, however, are very easy to compare!
 
 Pie charts are almost always better as bar charts. Make bar charts.
 
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/pie-charts.png)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/pie-charts.png?v=4)
 
 #### Should your bar chart be rotated?
 
 If you are comparing a lot of categories, Datawrapper might rotate your labels to make room on the x axis. Rotated labels are hard to read. The easy fix is to simply rotate to horizontal bars.
 
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/horiz-bars.png)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/horiz-bars.png?v=4)
 
 #### ✘DON'T: Use wonky names or abbreviations
 #### ✓DO: Feel free to rename variables when appropriate
 
 Data terminology is often wonky. Part of our job as journalists is to simplify and explain. To that end, we want to use simple and common language when labeling charts so the reader understands what they're reading.
 
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/language.png)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/language.png?v=4)
 
 
 #### Remove to improve

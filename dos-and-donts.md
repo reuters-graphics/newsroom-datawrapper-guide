@@ -53,6 +53,18 @@ If you are comparing a lot of categories, Datawrapper might rotate your labels t
 
 Data terminology is often wonky. Part of our job as journalists is to simplify and explain. To that end, we want to use simple and common language when labeling charts so the reader understands what they're reading.
 
+Try not to repeat language in labeling. For example:
+
+◼︎ Diesel as % of per capital income/day
+◼︎ Petrol as % of per capital income/day
+
+Can be more succinctly written as:
+
+Share of daily income needed for 1 litre of: ◼︎ Diesel   ◼︎ Petrol
+
+Don't emphasize too many things.
+
+
 ![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/language.png?v=4)
 
 

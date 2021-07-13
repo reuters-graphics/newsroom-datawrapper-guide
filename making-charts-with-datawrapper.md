@@ -99,4 +99,4 @@ Remember to get your chart in front of your editor _before_ you add it to your s
 
 ### Next steps
 
-Read the [Datawrapper Dos and Don'ts](https://reuters-graphics.github.io/newsroom-datawrapper-guide/dos-and-donts.html) to learn how to avoid common charting mistakes and discover best practices to emmulate in your dataviz.
+Read the [Dataviz 101](https://docs.google.com/presentation/d/1X6i6sS1bgLluGeyxVcibbJMuCSSD7xDgVrHz1bFOeJo/present) presentation to learn how to avoid common charting mistakes and discover best practices to emmulate in your dataviz.

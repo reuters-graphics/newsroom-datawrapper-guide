@@ -4,7 +4,7 @@
 
 If you have a chart idea and it fits one the chart types Datawrapper provides for, then the fastest route to the chart you want is through Datawrapper.
 
-Even though we can only pick up a few of the chart requests we receive on our team, we always encourage you to submit your ideas to [all.graphics@thomsonreuters.com](mailto:all.graphics@thomsonreuters.com). In many cases, we'll expand on an idea in conversation and find opportunities to build even more engaging dataviz in your data. (When approaching us, it's always best to send us some data.)
+Even though we can only pick up a few of the chart requests we receive on our team, we always encourage you to submit your ideas to [all.graphics@thomsonreuters.com](mailto:all.graphics@thomsonreuters.com). In many cases, we'll expand on an idea in conversation and find opportunities to build even more engaging dataviz in your data. (When approaching us, it's always best to send us some data as early as possible.)
 
 If we're already booked up, though, we'll be clear with you and hope to catch you on the next one.
 

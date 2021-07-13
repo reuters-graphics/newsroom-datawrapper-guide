@@ -6,9 +6,13 @@ This site includes useful instructions and tips for creating charts and maps usi
 
 Start here to get your Datawrapper account and start making charts and maps.
 
+#### [Dataviz 101](https://docs.google.com/presentation/d/1X6i6sS1bgLluGeyxVcibbJMuCSSD7xDgVrHz1bFOeJo/present)
+
+Now make better charts! Learn some basic dataviz techniques from this presentation.
+
 #### [Datawrapper Dos and Don'ts](./dos-and-donts.md)
 
-Now make better charts! Watch for these common pitfalls and copy these best practices.
+Watch for these common pitfalls and copy these best practices.
 
 #### [Datawrapper academy](https://academy.datawrapper.de/)
 

@@ -1,5 +1,9 @@
 ## Frequently asked questions
 
+#### How do I make Datawrapper recognise dates in my data?
+
+Checkout the date formats Datawrapper recommends [here](https://academy.datawrapper.de/article/164-date-formats-that-datawrapper-recognizes) and make sure the dates in your data are formatted according to one of those approved styles.
+
 #### I want a chart: Datawrapper or Reuters Graphics?
 
 If you have a chart idea and it fits one the chart types Datawrapper provides for, then the fastest route to the chart you want is through Datawrapper.

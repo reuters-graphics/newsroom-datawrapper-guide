@@ -93,7 +93,7 @@ In that channel, a card for your chart will be generated with several links incl
 
 For now, the only charts our CMS will accept are static images, **not** the interactive version. So choose the "Image" link from the card in Teams or use the Graphics Portal to get the same.
 
-See [this short instructional video](https://thehub.thomsonreuters.com/videos/60336) in the Hub for a demonstration of how to then embed your chart in Lynx or ask the desk for help getting your chart in your story.
+See [this short instructional guide](http://graphics.thomsonreuters.com/data/Embedding_graphics_in_Lynx.pdf) for a demonstration of how to then embed your chart in Lynx or ask the desk for help getting your chart in your story.
 
 Remember to get your chart in front of your editor _before_ you add it to your story.
 

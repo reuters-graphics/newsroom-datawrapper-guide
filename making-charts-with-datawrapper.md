@@ -52,7 +52,7 @@ With your data squared away, Datawrapper will make an educated guess at what cha
 
 Choosing the right chart type is an important step to make sure you're communicating your data clearly and correctly.
 
-Our friends in the graphics department at the FT have provided a very useful guide to what kinds of chart best match to different kinds of data. We highly recommend it and you can [download it here](https://github.com/ft-interactive/chart-doctor/raw/master/visual-vocabulary/FT4schools_RGS.pdf).
+Our friends in the graphics department at the FT have provided a very useful guide to what kinds of chart best match to different kinds of data. We highly recommend it and you can [download it here](https://github.com/ft-interactive/chart-doctor/raw/main/visual-vocabulary/FT4schools_RGS.pdf).
 
 #### Refining your chart
 

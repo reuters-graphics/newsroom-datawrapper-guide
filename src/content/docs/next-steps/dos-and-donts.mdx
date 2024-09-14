@@ -1,0 +1,122 @@
+---
+title: Dos and Don'ts
+---
+
+import { Badge } from '@astrojs/starlight/components';
+
+import JustEnoughColours from './images/just-enough-colours.png';
+import TooManyColours from './images/too-many-colours.png';
+
+This guide will help you make clear charts that tell compelling stories.
+
+## Data units
+
+<Badge text="✘ DON'T" variant="danger" /> Forget to indicate the units in your data
+
+<Badge text="✓ DO" variant="success" /> Add units to your axes
+
+You **must** always tell a reader if your data is in millions of dollars, tonnes of CO2 or whatever data unit you're showing.
+
+Often, the easiest way to indicate common data units is to add a prefix/suffice in the **"Check & Describe"** tab in Datawrapper:
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units.png?v=4)
+
+For example, adding a `$` prefix and a `K` suffix will add the dollar sign and the thousands symbol to the y-axis label:
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units-chart.png?v=4)
+
+## Round large numbers consistently
+
+<Badge text="✘ DON'T" variant="danger" /> Mix and match rounded number levels
+
+<Badge text="✓ DO" variant="success" /> Use decimals and suffixes to label values consistently
+
+Financial and economic data are often expressed in millions or billions of dollars. If you don't convert those numbers, the reader has to do math. For example, convert "1,000 billion" to "1 trillion" to make readers' lives easier.
+
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/hierarchy.png?v=4)
+
+There are two ways to handle this:
+
+1) If your data is in Excel, you can do that conversion yourself before pasting your data into Datawrapper.
+
+2) You can also do this in Datawrapper under the **"Check & Describe"** tab:
+    * Divide or multiply to get clean decimal numbers.
+    * Append the "K" (thousands) "M" (millions), "B" (billions), etc., suffix
+
+## Too many colours
+
+<Badge text="✘ DON'T" variant="danger" /> Use more than 3 colours in charts
+
+<Badge text="✓ DO" variant="success" /> Use colour to focus your chart's argument
+
+Colour is one of the most powerful visual dimensions in a chart. It can either distract or focus your reader's attention. We want the latter.
+
+A good rule of thumbs is **if you're using more than 3 colours in your chart, think about it**: Can you simplify your colour scheme for clarity?
+
+Below is an example of a chart that is much improved by simplifying the colour scheme and focusing the reader on the latest year, which outstrips all years prior.
+
+<img src={TooManyColours.src} />
+
+<img src={JustEnoughColours.src} />
+
+## Pies, save 'em for dessert
+
+<Badge text="✘ DON'T" variant="danger" /> Make pie charts
+
+<Badge text="✓ DO" variant="success" /> Make **bar** charts
+
+At Reuters Graphics, we're not big fans of pie charts. Why? Our brains are bad at comparing the sizes of a pie's slices to one another. The difference between 30% and 40%, for example, is not very dramatic when represented as a pie chart, but is often a VERY important difference to consider when making comparisons.
+
+Bars, however, are very easy to visually compare, and are almost always a better choice for your data than a pie.
+
+Still not convinced? Well, don't take ourt word for it:
+
+- [The Worst Chart In The World](https://www.businessinsider.com/pie-charts-are-the-worst-2013-6)
+- [Why you shouldn’t use pie charts](https://scc.ms.unimelb.edu.au/resources/data-visualisation-and-exploration/no_pie-charts)
+- [Save the pies for dessert](https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf)
+
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/pie-charts.png?v=4)
+
+## Text direction
+
+<Badge text="✘ DON'T" variant="danger" /> Rotate text to make room for long labels
+
+<Badge text="✓ DO" variant="success" /> Use chart types that fit your text
+
+In some cases, Datawrapper may rotate your labels to make room for them on the x axis, for example on the bar chart below. **Rotated labels are hard to read.** The easy fix is to simply to use _horizontal_ bars.
+
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/horiz-bars.png?v=4)
+
+## Plain language dataviz
+
+<Badge text="✘ DON'T" variant="danger" /> Use wonky names or abbreviations
+
+<Badge text="✓ DO" variant="success" /> Rename variables to easier to understand terms where you can
+
+
+Data terminology is often wonky. Part of our job as journalists is to simplify and explain. To that end, we want to use simple and common language when labeling charts so the reader understands what they're reading.
+
+Try not to repeat language in labeling. For example:
+
+```
+◼︎ Diesel as % of per capital income/day
+◼︎ Petrol as % of per capital income/day
+```
+
+Can be more succinctly written as:
+
+```
+Share of daily income needed for 1 litre of: ◼︎ Diesel   ◼︎ Petrol
+```
+
+Don't emphasize too many things.
+
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/language.png?v=4)
+
+
+## Remove to improve
+
+<Badge text="✓ DO" variant="success" /> THAT! 👆👆👆
+
+Too many colors, labels, axes labels, etc... can make your chart harder to read. You don't want to overload the reader. When in doubt, fall back on the axiom, "Remove to Improve."
+
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/data-ink.gif?v=4)
+

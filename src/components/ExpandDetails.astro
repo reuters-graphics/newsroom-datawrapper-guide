@@ -1,0 +1,21 @@
+---
+const { title } = Astro.props;
+---
+<details>
+  <summary>{title}</summary>
+  <slot />
+</details>
+
+<style>
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  details[open] summary {
+    margin-bottom: 16px;
+  }
+  div {
+    padding: 8px 0;
+  }
+</style>

@@ -1,0 +1,89 @@
+---
+title: Custom locator maps with shapefiles
+---
+
+import YouTube from '$components/YouTube.astro';
+import { Steps, Aside } from '@astrojs/starlight/components';
+
+
+Shapefiles are a widely-used file format for storing geographic data and are often the preferred way sources share GIS data with us. They're also widely available on the web through open data and government access portals.
+
+In this tutorial, we'll use shapefiles from the Insititute for the Study of War and AEI Critical Threats Project to create an analytical map of the Russian offensive in eastern Ukraine over the summer in 2024.
+
+## You will learn
+
+- How to convert shapefiles into the GeoJSON format Datawrapper requires with [Mapshaper](https://mapshaper.org)
+- Combine multiple shapefile layers to create an analytical map in Datawrapper
+- Style and annotate your map to make it a clear, compelling read
+
+## Video
+
+<YouTube videoId="x8UmB9e25c0" />
+
+## TLDR
+
+In  a rush? Here's the basic steps to get your shapefile data into a Datawrapper locator map.
+
+<Steps>
+1. **Get your shapefile**
+  
+    Make sure your source is reputable!
+
+2. **Upload to [mapshaper.org](https://mapshaper.org)**
+
+    Import **all** the files included with your shapefile in mapshaper.org. Your geographic data should immediately appear.
+
+3. **Console: Re-project**
+
+    Click the **"Console"** button, type the following command into the text prompt that appears and hit ENTER:
+
+    ```console
+    -proj wgs84
+    ```
+
+    You've just re-projected your data into the WGS84 projections system Datawrapper uses for locator maps.
+
+    <Aside type="caution">Got an error here? Your shapefile may be missing info to convert its projection. Chat to your friends on the graphics team in the Datawrapper Helpline channel in Teams.</Aside>
+
+
+4. **Simplify**
+
+    Get your file size down to something Datawrapper can handle. Click the **"Simplify"** button and use the slider to reduce the detail in the map down. Slide to the point _just before_ your map starts to visibly deform at the zoom level you expect to display your map in Datawrapper.
+
+5. **Export to GeoJSON**
+
+    Click **"Export"** and choose the GeoJSON option.
+
+6. **Add to your locator map in Datawrapper**
+
+    Paste or upload your GeoJSON in the **"Import line and area markers"** section on the "Add markers" tab in Datawrapper.
+
+7. **Style your new map layer**
+
+    Don't forget to annotate your layers and make sure your map's point is clear to your readers.
+</Steps>
+
+
+---
+
+## Quick glossary
+
+### Shapefile
+
+Shapefiles are a widely-used format for storing geographic data. They typically come as a set of files with different extensions working together. For example, a complete shapefile often includes files with extensions like:
+
+- `.shp` - contains geometric shapes on a map like points, lines and polygon areas.
+- `.dbf` - a database file storing attribute data, like names or population figures associated with the shapes.
+- `.prj` - a file containing information on the projection of the shapefile.
+
+These files combine to represent the location and attributes of geographic features, such as countries, regions or cities, which you can visualize on a map.
+
+### Projection
+
+Projections are coordinate systems used to represent the 3D curved surface of the Earth on a 2D flat surface, like a computer screen.
+
+Different projections change how shapes, distances and areas appear. Some projections preserve shapes, while others maintain accurate sizes.
+
+For Datawrapper, we need our geographic data projected using the **WGS84** system, which is a commonly used standard for mapping and global positioning. 
+
+If your geographic data isn't projected in WGS84, you can re-project it using online tools like [Mapshaper](https://mapshaper.org/). This ensures your geographic data appears correctly on your Datawrapper map and lines up with placenames, borders and other layers Datawrapper also includes.

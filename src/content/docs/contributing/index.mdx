@@ -1,0 +1,119 @@
+---
+title: Contributing
+---
+
+import { FileTree, Steps } from '@astrojs/starlight/components';
+
+Reuters Graphics developers are welcome to add to and improve this guide. All contributions must be made [in the GitHub repo for this project](https://github.com/reuters-graphics/newsroom-datawrapper-guide).
+
+## Structure of the Project
+This site is built using [Starlight](https://starlight.astro.build/) and the [Astro](https://astro.build/) web framework.
+
+All documentation files are stored as `.mdx` files in the `src/content/docs` directory. Each MDX file creates a corresponding page on this site. You may nest pages under folders to create more complex URLs.
+
+<FileTree>
+- src
+  - content
+    - docs
+      - index.mdx Home page
+      - tutorials
+        - my-tutorial.mdx A custom page at `/tutorials/my-tutorial/`
+</FileTree>
+
+## Updating existing pages
+
+You may edit typos or update links or simple instructions directly in GitHub. 
+
+For more substantial edits, follow a normal GitHub flow:
+
+<Steps>
+
+1. **Create a new branch**: Before making changes, create a new branch.
+   ```bash
+   git checkout -b your-branch-name
+   ```
+
+2. **Edit the MDX file**: 
+   - Navigate to the `src/content/docs/` directory.
+   - Open the file you want to edit and make your changes.
+  
+3. **Commit your changes**:
+   After making changes, commit them with a meaningful message and push your branch to GitHub.
+   ```bash
+   git add .
+   git commit -m "Added docs on choropleth maps"
+   git push origin your-branch-name
+
+4. **Open a Pull Request (PR)**: 
+   - Go to GitHub and open a PR from your branch to the `main` branch.
+   - Add a clear description of your changes for review.
+</Steps>
+
+## Adding new pages
+
+<Steps>
+1. **Create a new branch**: 
+   ```bash
+   git checkout -b your-branch-name
+   ```
+
+2. **Add a new MDX file**: 
+   - Navigate to the `src/content/docs/` directory.
+   - Create a new `.mdx` file for your page.
+     - For example, if you want to add a new page about creating choropleth maps, you might create a file called `choropleth-maps.mdx`.
+   - Start the file with a YAML frontmatter section that includes at least a `title` field:
+     ```mdx
+     ---
+     title: "Choropleth Maps"
+     description: "How to create choropleth maps using Datawrapper."
+     ---
+     ```
+
+3. **Write your content**: Use Markdown and MDX features to structure your content. You can also use any of Starlight's [built-in components](https://starlight.astro.build/guides/components/):
+   ```mdx
+
+   import { Aside } from '@astrojs/starlight/components';
+
+   ## Step 1: Upload Your Data
+
+   Follow these steps to upload your dataset to Datawrapper...
+
+   <Aside type="caution">Be sure your data is formatted properly!</Aside>
+   ```
+
+</Steps>
+
+## Images
+
+When adding images to accompany your documentation, please save them _near_ the MDX file they belong to, typically in an `images/` subdirectory within the same folder as the MDX file you're working on.
+
+You can then import the image directly into your MDX file and place it in your content:
+
+```mdx
+import MapImage from './images/choropleth-example.png';
+
+## Example Choropleth Map
+
+Here’s what a choropleth map looks like:
+
+<img src={MapImage.src} />
+```
+
+## Adding a page to the site nav
+
+To add your new page to the sidebar nav, you must add an item to the `SIDEBAR` array in the `astro.config.mjs` file in the root of this project with a `label` and `slug` which represents the path to your page.
+
+```typescript
+const SIDEBAR = [
+	// ...
+	{
+		label: 'My new tutorial',
+		slug: 'tutorials/my-new-tutorial',
+	},
+];
+
+```
+
+## Publishing Changes
+
+Once your PR is approved and merged or any changes have been made to the `main` branch, the site will automatically be republished through a GitHub Action.

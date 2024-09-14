@@ -1,0 +1,38 @@
+:root {
+  --sl-line-height: 1.5;
+}
+
+.sl-markdown-content :is(img, picture):not(:where(.not-content *)) {
+  margin: 1.5rem 5% 3rem;
+  max-width: 90%;
+}
+
+html[data-theme="light"] {
+  .sl-markdown-content :is(img, picture):not(:where(.not-content *)) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border: 1px solid #eee;
+  }
+}
+
+html[data-theme="dark"] {
+  .sl-markdown-content :is(img, picture):not(:where(.not-content *)) {
+    padding: 6px;
+    border: 1px solid #999;
+  }
+}
+
+starlight-file-tree:where(.astro-qyyt3s5x) ul {
+  margin-inline-start: 0px;
+}
+
+starlight-file-tree:where(.astro-qyyt3s5x) .directory > details {
+  padding-inline-start: 1rem;
+}
+
+starlight-file-tree:where(.astro-qyyt3s5x) .file {
+  margin-inline-start: 1rem;
+}
+
+starlight-file-tree:where(.astro-qyyt3s5x) .comment {
+  padding-inline-start: 0.8rem;
+}

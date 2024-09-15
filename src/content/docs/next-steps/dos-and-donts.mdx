@@ -6,6 +6,8 @@ import { Badge } from '@astrojs/starlight/components';
 
 import JustEnoughColours from './images/just-enough-colours.png';
 import TooManyColours from './images/too-many-colours.png';
+import Units from './images/units.png';
+import UnitsChart from './images/units-chart.png';
 
 This guide will help you make clear charts that tell compelling stories.
 
@@ -18,10 +20,10 @@ This guide will help you make clear charts that tell compelling stories.
 You **must** always tell a reader if your data is in millions of dollars, tonnes of CO2 or whatever data unit you're showing.
 
 Often, the easiest way to indicate common data units is to add a prefix/suffice in the **"Check & Describe"** tab in Datawrapper:
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units.png?v=4)
+<img src={Units.src} />
 
 For example, adding a `$` prefix and a `K` suffix will add the dollar sign and the thousands symbol to the y-axis label:
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/units-chart.png?v=4)
+<img src={UnitsChart.src} />
 
 ## Round large numbers consistently
 
@@ -31,7 +33,7 @@ For example, adding a `$` prefix and a `K` suffix will add the dollar sign and t
 
 Financial and economic data are often expressed in millions or billions of dollars. If you don't convert those numbers, the reader has to do math. For example, convert "1,000 billion" to "1 trillion" to make readers' lives easier.
 
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/hierarchy.png?v=4)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/main/.github/images/hierarchy.png?v=4)
 
 There are two ways to handle this:
 
@@ -73,7 +75,7 @@ Still not convinced? Well, don't take ourt word for it:
 - [Why you shouldn’t use pie charts](https://scc.ms.unimelb.edu.au/resources/data-visualisation-and-exploration/no_pie-charts)
 - [Save the pies for dessert](https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf)
 
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/pie-charts.png?v=4)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/main/.github/images/pie-charts.png?v=4)
 
 ## Text direction
 
@@ -83,7 +85,7 @@ Still not convinced? Well, don't take ourt word for it:
 
 In some cases, Datawrapper may rotate your labels to make room for them on the x axis, for example on the bar chart below. **Rotated labels are hard to read.** The easy fix is to simply to use _horizontal_ bars.
 
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/horiz-bars.png?v=4)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/main/.github/images/horiz-bars.png?v=4)
 
 ## Plain language dataviz
 
@@ -109,7 +111,7 @@ Share of daily income needed for 1 litre of: ◼︎ Diesel   ◼︎ Petrol
 
 Don't emphasize too many things.
 
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/language.png?v=4)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/main/.github/images/language.png?v=4)
 
 
 ## Remove to improve
@@ -118,5 +120,5 @@ Don't emphasize too many things.
 
 Too many colors, labels, axes labels, etc... can make your chart harder to read. You don't want to overload the reader. When in doubt, fall back on the axiom, "Remove to Improve."
 
-![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/gh-pages/.github/images/data-ink.gif?v=4)
+![](https://raw.githubusercontent.com/reuters-graphics/newsroom-datawrapper-guide/main/.github/images/data-ink.gif?v=4)
 

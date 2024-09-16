@@ -7,6 +7,10 @@
   max-width: 90%;
 }
 
+.sl-markdown-content li :is(img, picture):not(:where(.not-content *)) {
+  margin: 1.5rem 0 3rem;
+}
+
 html[data-theme="light"] {
   .sl-markdown-content :is(img, picture):not(:where(.not-content *)) {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);

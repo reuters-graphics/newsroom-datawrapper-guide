@@ -13,6 +13,7 @@ const SIDEBAR = [
 			{ label: 'Setting up your account', slug: 'getting-started/setup' },
 			{ label: 'Making your first chart', slug: 'getting-started/making-your-first-chart' },
 			{ label: 'Publishing your chart', slug: 'getting-started/publishing' },
+			{ label: 'Adding your chart to a story', slug: 'getting-started/getting-charts-in-stories' },
 		],
 	},
 	{

@@ -2,14 +2,14 @@
 title: Contributing
 ---
 
-import { FileTree, Steps } from '@astrojs/starlight/components';
+import { FileTree, Steps, Aside } from '@astrojs/starlight/components';
 
-Reuters Graphics developers are welcome to add to and improve this guide. All contributions must be made [in the GitHub repo for this project](https://github.com/reuters-graphics/newsroom-datawrapper-guide).
+All Reuters Graphics staff are welcome and encouraged to add to and improve this guide. All contributions must be made [in the GitHub repo for this project](https://github.com/reuters-graphics/newsroom-datawrapper-guide).
 
 ## Structure of the Project
-This site is built using [Starlight](https://starlight.astro.build/) and the [Astro](https://astro.build/) web framework.
+This site is built using [Starlight](https://starlight.astro.build/) and the [Astro](https://astro.build/) web framework. But the minimum you need to know is basic [markdown](https://www.markdownguide.org/basic-syntax/) syntax to write documentation.
 
-All documentation files are stored as `.mdx` files in the `src/content/docs` directory. Each MDX file creates a corresponding page on this site. You may nest pages under folders to create more complex URLs.
+All documentation files are stored as `.mdx` files in the `src/content/docs` directory. Each [MDX](https://mdxjs.com/) file creates a corresponding page on this site. Nested pages create more complex URLs.
 
 <FileTree>
 - src
@@ -17,31 +17,31 @@ All documentation files are stored as `.mdx` files in the `src/content/docs` dir
     - docs
       - index.mdx Home page
       - tutorials
-        - my-tutorial.mdx A custom page at `/tutorials/my-tutorial/`
+        - my-tutorial.mdx A page at `/tutorials/my-tutorial/`
 </FileTree>
 
 ## Updating existing pages
 
-You may edit typos or update links or simple instructions directly in GitHub. 
+If you're editing typos, updating links or adding simple instructions to an existing page, you can make those changes directly in GitHub and commit to `main`.
 
 For more substantial edits, follow a normal GitHub flow:
 
 <Steps>
 
-1. **Create a new branch**: Before making changes, create a new branch.
+1. **Create a new branch**: Clone [this repo](https://github.com/reuters-graphics/newsroom-datawrapper-guide), if you haven't already, and create a new branch.
    ```bash
    git checkout -b your-branch-name
    ```
 
 2. **Edit the MDX file**: 
    - Navigate to the `src/content/docs/` directory.
-   - Open the file you want to edit and make your changes.
+   - Open the file for the page you want to edit and make your changes.
   
 3. **Commit your changes**:
    After making changes, commit them with a meaningful message and push your branch to GitHub.
    ```bash
    git add .
-   git commit -m "Added docs on choropleth maps"
+   git commit -m "My docs edit"
    git push origin your-branch-name
 
 4. **Open a Pull Request (PR)**: 
@@ -64,17 +64,20 @@ For more substantial edits, follow a normal GitHub flow:
    - Start the file with a YAML frontmatter section that includes at least a `title` field:
      ```mdx
      ---
-     title: "Choropleth Maps"
-     description: "How to create choropleth maps using Datawrapper."
+     title: Choropleth Maps
+     description: How to create choropleth maps using Datawrapper.
      ---
      ```
 
-3. **Write your content**: Use Markdown and MDX features to structure your content. You can also use any of Starlight's [built-in components](https://starlight.astro.build/guides/components/):
+3. **Write your content**: Use Markdown and MDX features to structure your content. You can also use any of Starlight's [built-in MDX components](https://starlight.astro.build/guides/components/):
    ```mdx
+   ---
+   title: Choropleth Maps
+   ---
 
    import { Aside } from '@astrojs/starlight/components';
 
-   ## Step 1: Upload Your Data
+   ## Upload Your Data
 
    Follow these steps to upload your dataset to Datawrapper...
 
@@ -122,6 +125,14 @@ const SIDEBAR = [
       ```bash
       pnpm i
       ```
+
+      <Aside type="tip">
+         This repo uses pnpm, which is a package manager, like yarn or npm, but cooler. If you don\'t have it, you can install it with npm:
+
+         ```bash
+         npm install -g pnpm
+         ```
+      </Aside>
 
 2. Run the dev server:
 

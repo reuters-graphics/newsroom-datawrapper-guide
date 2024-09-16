@@ -18,7 +18,11 @@ In this tutorial, we'll use shapefiles from the Insititute for the Study of War 
 
 ## Video
 
+Watch as we make an area of control map for eastern Ukraine and learn how to use shapefiles with Datawrapper.
+
 <YouTube videoId="x8UmB9e25c0" />
+
+<Aside type="tip">You may need to increase the video quality to 1080p to see the screenshare clearly.</Aside>
 
 ## TLDR
 
@@ -33,7 +37,7 @@ In  a rush? Here's the basic steps to get your shapefile data into a Datawrapper
 
     Import **all** the files included with your shapefile in mapshaper.org. Your geographic data should immediately appear.
 
-3. **Console: Re-project**
+3. **Console: Re-project your map**
 
     Click the **"Console"** button, type the following command into the text prompt that appears and hit ENTER:
 
@@ -41,9 +45,9 @@ In  a rush? Here's the basic steps to get your shapefile data into a Datawrapper
     -proj wgs84
     ```
 
-    You've just re-projected your data into the WGS84 projections system Datawrapper uses for locator maps.
+    You've just re-projected your data into the WGS84 projection system Datawrapper uses for locator maps.
 
-    <Aside type="caution">Got an error here? Your shapefile may be missing info to convert its projection. Chat to your friends on the graphics team in the Datawrapper Helpline channel in Teams.</Aside>
+    <Aside type="caution">Got an error here? Your shapefile may be missing some info needed to convert its projection. Chat to your friends on the graphics team in the Datawrapper Helpline channel to see if we can help.</Aside>
 
 
 4. **Simplify**
@@ -56,17 +60,19 @@ In  a rush? Here's the basic steps to get your shapefile data into a Datawrapper
 
 6. **Add to your locator map in Datawrapper**
 
-    Paste or upload your GeoJSON in the **"Import line and area markers"** section on the "Add markers" tab in Datawrapper.
+    Paste or upload your GeoJSON in the **"Import line and area markers"** section on the **"Add markers"** tab in Datawrapper.
 
 7. **Style your new map layer**
 
-    Don't forget to annotate your layers and make sure your map's point is clear to your readers.
+    Don't forget to annotate your map layers and make sure your map's point is clear to your readers.
 </Steps>
 
 
 ---
 
 ## Quick glossary
+
+A few terms you'll encounter in this tutorial.
 
 ### Shapefile
 
@@ -82,7 +88,7 @@ These files combine to represent the location and attributes of geographic featu
 
 Projections are coordinate systems used to represent the 3D curved surface of the Earth on a 2D flat surface, like a computer screen.
 
-Different projections change how shapes, distances and areas appear. Some projections preserve shapes, while others maintain accurate sizes.
+Different projections change how shapes, distances and areas appear. Some projections preserve shapes, while others maintain accurate sizes, but all projections stretch and change the geography in some way to flatten it out.
 
 For Datawrapper, we need our geographic data projected using the **WGS84** system, which is a commonly used standard for mapping and global positioning. 
 

@@ -17,6 +17,10 @@ const SIDEBAR = [
 		],
 	},
 	{
+		label: 'Teams channels',
+		slug: 'teams-channels',
+	},
+	{
 		label: 'Next steps',
 		slug: 'next-steps',
 	},

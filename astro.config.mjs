@@ -53,7 +53,7 @@ export default defineConfig({
 			},
 			customCss: ['./src/styles/main.css'],
 			editLink: {
-				baseUrl: 'https://github.com/withastro/starlight/edit/main/',
+				baseUrl: 'https://github.com/reuters-graphics/newsroom-datawrapper-guide/edit/main/',
 			},
 			favicon: '/newsroom-datawrapper-guide/favicon.ico',
 			social: {

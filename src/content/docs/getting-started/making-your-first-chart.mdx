@@ -3,10 +3,31 @@ title: Making your first chart
 ---
 
 import Metadata from './images/metadata.jpg';
+import CreateMenu from './images/create-menu.png';
+import TeamMenu from './images/team-menu.png';
 
 import { Aside } from '@astrojs/starlight/components';
 
 Once you have your Datawrapper account, you're ready to create your first chart.
+
+## Start a chart
+
+Login to Datawrapper at: https://app.datawrapper.de/
+
+Then select a new chart, map or data table to create from the menu:
+
+<img src={CreateMenu.src} style={{ maxHeight: '150px' }} />
+
+<Aside type="caution">
+Make sure the menu says the new chart will be created "**In: Reuters**". 
+
+If it doesn't, you'll create a chart in your personal folder that cannot be published to our graphics servers.
+
+To fix that, click the hamburger menu in the upper right and set your "active team" to Reuters:
+
+<img src={TeamMenu.src} style={{ maxWidth: '250px' }} />
+
+</Aside>
 
 ## Preparing and uploading your data to Datawrapper
 

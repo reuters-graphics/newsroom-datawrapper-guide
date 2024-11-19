@@ -2,6 +2,9 @@
 title: Frequently asked questions
 ---
 
+import ReutersChart from './images/reuters-chart.png';
+import CopyToShared from './images/copy-to-shared.png';
+
 import ExpandDetails from '$components/ExpandDetails.astro';
 
 <ExpandDetails title="Where can I get help with my Datawrapper chart?">
@@ -19,8 +22,30 @@ import ExpandDetails from '$components/ExpandDetails.astro';
   Find you chart's link card posted in the [Datawrapper Charts](https://teams.microsoft.com/l/channel/19%3A489aacae4e19400d8cf0da402c021076%40thread.skype/Datawrapper%20Charts?groupId=c0949280-94a2-469a-a719-12397824db0a&tenantId=62ccb864-6a1a-4b5d-8e1c-397dec1a8258) Teams channel, then read ["Adding your chart to a story"](/newsroom-datawrapper-guide/getting-started/getting-charts-in-stories/).
 </ExpandDetails>
 
+<ExpandDetails title="I clicked publish in Datawrapper, but don't see anything happen in the Datawrapper Charts Teams channel. What do I do?">
+  If you don't see any cards created for your chart in the [Datawrapper Charts](https://teams.microsoft.com/l/channel/19%3A489aacae4e19400d8cf0da402c021076%40thread.skype/Datawrapper%20Charts?groupId=c0949280-94a2-469a-a719-12397824db0a&tenantId=62ccb864-6a1a-4b5d-8e1c-397dec1a8258) Teams channel, then you may have created your chart in a private folder, not the shared Reuters one.
+
+  Take a look at your chart in Datawrapper and confirm it says the chart was in a "Reuters" folder in the upper left corner of the screen as below:
+
+  <img src={ReutersChart.src} style={{ maxWidth: '250px' }} />
+
+  If it is, contact the Reuters Graphics team in the [Datawrapper Helpline](https://teams.microsoft.com/l/channel/19%3a2cfe992b82e14e599bd7ad7eca59c324%40thread.skype/%25E2%2598%258E%25EF%25B8%258F%2520Datawrapper%2520helpline?groupId=c0949280-94a2-469a-a719-12397824db0a&tenantId=62ccb864-6a1a-4b5d-8e1c-397dec1a8258) channel.
+
+  **If not**, go to the Datawrapper "Archive" (upper right), find your chart in your private folder, click "Copy to" and make a copy of your chart in the shared "Reuters" folder.
+
+  <img src={CopyToShared.src} style={{ maxWidth: '550px' }} />
+
+  With the new chart opened for editing, remove "(Copy)" from the title and publish _that_ chart, which should now correctly route through the Reuters publishing channels.
+</ExpandDetails>
+
 <ExpandDetails title="How do I include my chart in my story?">
   See ["Adding your chart to a story"](/newsroom-datawrapper-guide/getting-started/getting-charts-in-stories/) for a demonstration of how to then embed your chart in Lynx Editor Online or ask the desk for help getting your chart in your story.
+</ExpandDetails>
+
+<ExpandDetails title="How do I get my chart in Reuters Connect?">
+  Only charts approved by the graphics team are sent on to clients in Reuters Connect. If you want to publish your chart separately to clients on Connect, ask a Reuters Graphics staff member to review your chart in the [Datawrapper Helpline](https://teams.microsoft.com/l/channel/19%3a2cfe992b82e14e599bd7ad7eca59c324%40thread.skype/%25E2%2598%258E%25EF%25B8%258F%2520Datawrapper%2520helpline?groupId=c0949280-94a2-469a-a719-12397824db0a&tenantId=62ccb864-6a1a-4b5d-8e1c-397dec1a8258) channel in Teams. (Be sure to send a link to the editable chart in Datawrapper when you do.) 
+  
+  If your chart passes our editorial check, we'll be happy to move it along for you.
 </ExpandDetails>
 
 <ExpandDetails title="My chart has an error when publishing. What do I do?">
@@ -51,7 +76,7 @@ import ExpandDetails from '$components/ExpandDetails.astro';
 <ExpandDetails title="What's the Reuters Graphics team's role in supporting Datawrapper?">
   The graphics team supports the software that publishes Datawrapper charts to our Reuters servers. We also maintain the Datawrapper Charts and Datawrapper Helpline channels in Teams and the training materials you're reading now. We also host occassional office hours sessions to talk about charting with the newsroom.
 
-  We do not usually have the capacity to assist in making individual charts, but we'll always try to help where we can and are keen to coach.
+  We do not always have the capacity to assist in making individual charts, but we'll always try to help where we can and are keen to coach.
 </ExpandDetails>
 
 <ExpandDetails title="How do I make Datawrapper recognise dates in my data?">

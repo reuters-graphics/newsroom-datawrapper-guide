@@ -1,0 +1,61 @@
+---
+title: Mobile & Desktop Annotations
+---
+
+import { Steps, Aside } from '@astrojs/starlight/components';
+
+import annotations from './images/annotations.png';
+import annotationsDesktop from './images/annotations-desktop.png';
+import exampleDesktop from './images/example-desktop.png';
+import exampleMobile from './images/example-mobile.png';
+import viewport from './images/viewport.png';
+
+
+Datawrapper lets you create annotations that only appear on mobile or only on desktop. This is useful when you need to reposition or rewrite labels to avoid overlap on different sizes. 
+
+Here's a chart on desktop, with annotations that look fine: 
+<img src={exampleDesktop.src} />
+
+And here's that same version on mobile, where roughly two thirds of our readers would see it: 
+<img src={exampleMobile.src} />
+
+## How annotations work in Datawrapper
+
+Annotations are added in the **"Annotate"** tab of the chart editor. Each annotation has a visibility toggle that controls whether it shows on mobile, desktop, or both.
+
+<img src={annotations.src} />
+
+## Adding a desktop-only annotation
+
+<Steps>
+1. Open your chart and go to the **"Annotate"** tab.
+2. Click **"Add text annotation"** (or range/arrow as needed).
+3. Position and style the annotation for your desktop layout.
+4. In the annotation's settings, find the **"Show on"** toggle and select **"Desktop only"**.
+</Steps>
+
+<img src={annotationsDesktop.src} />
+
+## Adding a mobile-only annotation
+
+<Steps>
+1. In the same **"Annotate"** tab, add a second annotation with the same label text.
+2. Reposition it to fit the narrower mobile layout — typically shorter text, repositioned to avoid overlap with the chart.
+3. Set the **"Show on"** toggle to **"Mobile only"**.
+</Steps>
+
+## Previewing each version
+
+Use the **mobile/desktop preview toggle** at the top of the editor to switch between views and check that each annotation appears only where it should.
+
+<img src={viewport.src} />
+
+<Aside type="tip">
+A common pattern is to write a shorter annotation for mobile — for example, "Peak: 2.4M" instead of "This was the peak year, reaching 2.4 million" — since space is tight on small screens.
+</Aside>
+
+## When to use this
+
+- Your annotation overlaps a data point or axis label on one screen size but not the other.
+- You want to use a shorter label on mobile to avoid crowding.
+- You are annotating a specific region of a chart that shifts position between mobile and desktop layouts.
